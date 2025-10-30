@@ -1,0 +1,50 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "linking",
+            "creator": {
+                "id": "astewofme",
+                "name": "astewofme"
+            },
+            "created": "2025-10-30T02:24:58.145Z",
+            "modified": "2025-10-30T02:25:05.335Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "astewofme",
+                "name": "astewofme"
+            },
+            "created": "2025-10-30T02:25:06.908Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2.650083065032959,30.702451705932617,205.31621026992798,122.10624885559082"
+        }
+    },
+    "id": "c64c4c90-6cc6-4a89-a14d-a9b3e109e119.json",
+    "motivation": "commenting"
+}
