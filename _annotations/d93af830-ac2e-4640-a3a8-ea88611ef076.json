@@ -1,0 +1,33 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test circle",
+            "purpose": "commenting",
+            "creator": {
+                "id": "astewofme",
+                "name": "astewofme"
+            },
+            "created": "2025-10-30T02:25:29.322Z",
+            "modified": "2025-10-30T02:25:31.440Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"396.7199249267578\" cy=\"159.78115844726562\" r=\"96.4974007476166\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d93af830-ac2e-4640-a3a8-ea88611ef076.json",
+    "motivation": "commenting"
+}
