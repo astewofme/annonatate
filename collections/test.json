@@ -9,6 +9,12 @@
             "title": "",
             "description": "test description",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-storyboard annotationurl='https://astewofme.github.io/annonatate/annotations/segins-020-list.json'></iiif-storyboard>",
+            "title": "test title",
+            "description": "description",
+            "thumbnail": ""
         }
     ]
 }
