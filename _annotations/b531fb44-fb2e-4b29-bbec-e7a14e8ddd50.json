@@ -1,0 +1,49 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_020"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test square",
+            "purpose": "highlighting",
+            "creator": {
+                "id": "astewofme",
+                "name": "astewofme"
+            },
+            "created": "2025-10-30T02:26:17.820Z",
+            "modified": "2025-10-30T02:26:29.441Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test tag",
+            "purpose": "tagging",
+            "creator": {
+                "id": "astewofme",
+                "name": "astewofme"
+            },
+            "created": "2025-10-30T02:26:22.941Z",
+            "modified": "2025-10-30T02:26:24.624Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_020/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/segIns_020",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=0,1181.5775146484375,2445.771484375,2112.6036376953125"
+        }
+    },
+    "id": "b531fb44-fb2e-4b29-bbec-e7a14e8ddd50.json",
+    "motivation": "commenting"
+}
